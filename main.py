@@ -420,7 +420,7 @@ def _update(app):
             text=group_config["msg_challenge_failed"],
             reply_markup=None,
         )
-        await client.send_message(chat_id=_config["channel"],
+        await client.send_message(chat_id=_channel,
                                   text=_config["msg_failed_timeout"].format(
                                       botid=str(_me.id),
                                       targetuser=str(from_id),
