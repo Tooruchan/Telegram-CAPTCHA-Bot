@@ -26,6 +26,7 @@ main() {
 		echo ""
 		exit(1)
 	fi
+	git pull
 	/tg-captcha/workdir/venv/bin/python /tg-captcha/workdir/main.py
 }
 
