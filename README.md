@@ -2,6 +2,8 @@
 
 一个用于验证新成员是不是真人的bot。
 
+本仓库已停止更新，请移步至新仓库：https://github.com/Tooruchan/Telegram-CAPTCHA-bot-pyrogram
+
 [![GNU Public License Affero 3.0](https://img.shields.io/badge/license-AGPL3.0-%23373737.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html) [![Python 3.6](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org) [![Pyrogram](https://img.shields.io/badge/Pyrogram-asyncio-green.svg)](https://github.com/pyrogram/pyrogram/)
 
 A bot running on Telegram which will send CAPTCHA to verify if the new member is a human.
